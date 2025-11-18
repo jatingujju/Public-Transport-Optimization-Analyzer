@@ -16,3 +16,12 @@ Analyze vehicle GPS + passenger count logs for multiple bus routes to identify p
 1. Create virtual environment and install:
 ```bash
 pip install -r requirements.txt
+cd src
+python generate_data.py
+# dataset saved at ../data/transit_logs.csv
+
+cd src
+python generate_data.py
+# dataset saved at ../data/transit_logs.csv
+Run
+python analysis.py
